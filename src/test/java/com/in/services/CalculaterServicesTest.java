@@ -24,6 +24,12 @@ public class CalculaterServicesTest {
 
     }
 @Test
+    public void subtwoNumberTest(){
+        int sub=CalculaterServices.subtwoNumber(10,5);
+        int expectedSub= 5;
+        Assert.assertEquals(expectedSub,sub);
+    }
+@Test
     public void nNumber(){
        int sum= CalculaterServices.nNumber(2,3,4,5,6);
        int expectedSum=20;
